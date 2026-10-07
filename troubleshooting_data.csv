@@ -1,0 +1,34 @@
+Kategori,Masalah,Penyebab_Umum,Solusi_Langkah
+CCTV,DVR bunyi bip panjang terus-menerus,"Hard Disk (HDD) tidak terbaca, rusak, atau adaptor daya kurang tegangan.","1. Matikan DVR.
+2. Buka casing dan pastikan kabel daya & SATA Hard Disk terpasang rapat.
+3. Jika masih bip, coba ganti adaptor DVR (biasanya 12V 2A).
+4. Masuk ke menu Storage/HDD, cek apakah statusnya 'Uninitialized', lalu format jika perlu."
+CCTV,Layar monitor CCTV blank hitam (No Video),"Kabel coaxial/LAN putus, konektor BNC kendor, atau adaptor kamera mati.","1. Periksa apakah lampu inframerah kamera menyala saat ditutup tangan (tanda adaptor normal).
+2. Cek colokan BNC di belakang DVR dan di kamera, pastikan tidak goyang.
+3. Ganti port channel di DVR untuk memastikan port tidak rusak."
+CCTV,CCTV offline tidak bisa dilihat di HP,"DVR tidak terkoneksi ke internet, kabel LAN rusak, atau status Cloud Offline.","1. Pastikan kabel LAN dari router ke DVR terpasang kencang (lampu indikator berkedip).
+2. Masuk ke menu Network di DVR, pastikan DHCP 'Enable'.
+3. Buka menu Platform Access / Cloud, pastikan statusnya 'Online'."
+CCTV,Kamera CCTV buram atau berembun di malam hari,"Kaca lensa kotor, embun terjebak di dalam housing, atau pantulan inframerah.","1. Bersihkan kaca luar kamera dengan kain microfiber.
+2. Jika berembun di dalam, buka cover kamera dan keringkan (bisa pakai silica gel).
+3. Pastikan tidak ada benda (seperti daun/tembok) yang terlalu dekat di depan kamera agar inframerah tidak memantul."
+CCTV,Rekaman CCTV hilang atau tidak tersimpan (Playback kosong),"Hard disk penuh dan tidak auto-overwrite, pengaturan jadwal rekam salah, atau HDD rusak.","1. Masuk ke menu HDD/Storage di DVR, pastikan HDD berstatus 'Normal'.
+2. Cek menu Record Schedule, pastikan jadwal rekaman (warna biru/hijau) sudah penuh 24 jam.
+3. Aktifkan fitur 'Overwrite' agar rekaman lama otomatis terhapus."
+Komputer,PC menyala tapi monitor No Display,"RAM kotor/longgar, atau kabel VGA/HDMI ke monitor bermasalah.","1. Matikan PC dan cabut kabel power.
+2. Cabut RAM, gosok perlahan pin kuningnya menggunakan penghapus pensil bersih.
+3. Pasang kembali hingga bunyi 'klik'.
+4. Pastikan kabel HDMI/VGA dicolok ke VGA Card (jika ada), bukan ke Motherboard."
+Komputer,Laptop tiba-tiba blue screen (BSOD) saat main game,"Suhu terlalu panas (Overheating), driver VGA crash, atau RAM bermasalah.","1. Catat kode error yang muncul (misal: VIDEO_TDR_FAILURE).
+2. Bersihkan ventilasi udara laptop agar sirkulasi lancar.
+3. Update driver kartu grafis (NVIDIA/AMD) ke versi terbaru.
+4. Gunakan cooling pad saat bermain game."
+Komputer,Kinerja PC sangat lambat dan lemot (Disk 100%),"Hard disk mekanik sudah lemah, banyak virus, atau update Windows tersangkut.","1. Upgrade Hard Disk (HDD) lawas Anda ke SSD (Solid State Drive) untuk kecepatan 10x lipat.
+2. Buka Task Manager (Ctrl+Shift+Esc), cek aplikasi apa yang memakan disk 100%.
+3. Matikan program startup yang tidak perlu."
+Komputer,Bunyi kipas prosesor sangat berisik dan PC panas,"Thermal paste kering, debu menumpuk di heatsink, atau kipas rusak.","1. Matikan PC dan bersihkan debu pada kipas prosesor menggunakan kuas.
+2. Buka heatsink dan oleskan thermal paste baru pada prosesor.
+3. Pastikan kabel kipas terpasang ke pin 'CPU_FAN' di Motherboard."
+Jaringan,Internet putus nyambung di router (RTO),"Kabel fiber optik tertekuk, router panas, atau gangguan dari ISP.","1. Restart router dengan mencabut adaptor listrik selama 1 menit.
+2. Pastikan kabel optik kuning tidak tertekuk tajam.
+3. Jika lampu PON berkedip merah/mati, segera hubungi teknisi ISP (Indihome/XL/dll)."
